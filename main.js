@@ -6,7 +6,7 @@ function preload(){
 
 }
 function setup(){
-        canvas=createCaptue(VIDEO);
+        canvas=createCapture(VIDEO);
         canvas.center();
 }
 function draw(){
