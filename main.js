@@ -1,7 +1,10 @@
 camera="";
 status="";
+function preload(){
+        camera=createCapture(VIDEO);
+}
 function setup(){
-        canvas=createCapture(VIDEO);
+        canvas=createCanavs();
         canvas.center();
 }
 function draw(){
