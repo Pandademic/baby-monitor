@@ -1,0 +1,51 @@
+/* ©  atharv gupte (also known as athag,pandademic) 2022 
+YOU ARE NOT ALLOWED TO MODIFY , USE , EDIT , COPY , OR DO AYTHING BUT VIEW THIS CODE UNTILL THIS TEXT IS REMOVED BY THE CREATOR (ATHARV GUPTE)
+*/
+/* btn */
+.btn{
+  font-size:13.125px;
+  text-align:center;
+  line-height:26.25px;
+  letter-spacing:normal;
+  padding:8.96px;
+  border-radius:7.5px;
+}
+.btn-orange{
+  background-color:#ff9900;
+  color:#f9fafb;
+
+}
+.btn-red{
+  background-color:#ff5724;
+  color:#f9fafb;
+
+}
+.btn-link{
+  color:#58a6ff;
+  border-color:black;   
+
+}
+/* btn transitions */
+.btn:hover{
+  cursor: pointer;
+}
+.btn-orange:hover , .btn-red:hover{
+  filter: contrast(200%);
+}
+.btn-link:hover{
+  color:#58a6ff;
+  background-color:whitesmoke; 
+}
+/* spacing */
+.rs{margin-right:var(--space); }
+.ls{margin-left: var(--space);}
+.ts{margin-top:var(--space);}
+.bs{margin-top:var(--space);}
+/* input styling  */
+input[type='password']{
+  border-radius: 25px;
+  background: rgba(255, 255, 255, .7);
+	animation-fill-mode: blur(10px);
+	backdrop-filter: blur(10px);
+  color:purple; 
+}
