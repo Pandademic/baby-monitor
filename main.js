@@ -1,10 +1,5 @@
 camera="";
 status="";
-function preload(){
-    camera=createVideo('video.mp4');
-    camera.hide();
-
-}
 function setup(){
         canvas=createCapture(VIDEO);
         canvas.center();
