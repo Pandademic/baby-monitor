@@ -12,5 +12,14 @@ function draw(){
 function modelLoaded(){
     console.log("Coco is here for Babysitting dutys");
     status=true;
-    ojectDetector.detect(camera,gotResult);
+    objectDetector.detect(camera,gotResult);
+}
+function gotResult(error,results){
+    if(error){
+        console.error(error);
+    }
+    else{
+        console.log(results);
+        objects=results;
+    }
 }
