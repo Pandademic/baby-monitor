@@ -1,21 +1,16 @@
 camera="";
 status="";
-function preload(){
-        camera=createCapture(VIDEO);
-}
 function setup(){
-        canvas=createCanavs();
-        canvas.center();
+      camera=createCapture(VIDEO);
+      canvas=createCanavs();
+      canvas.center();
+      objectDetector=ml5.objectDetector('cocossd',modelLoaded)
 }
 function draw(){
     image(camera,0,0,480,380);
-}
-function start(){
-    objectDetector=ml5.objectDetector('cocossd',modelLoaded);
-
+    objectDetector.detector(video,gotResult);
 }
 function modelLoaded(){
     console.log("Coco is here for Babysitting dutys");
-    status=true;
-     
+    status=true;         
 }
