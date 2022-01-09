@@ -8,9 +8,9 @@ function setup(){
 }
 function draw(){
     image(camera,0,0,480,380);
-    objectDetector.detector(video,gotResult);
 }
 function modelLoaded(){
     console.log("Coco is here for Babysitting dutys");
-    status=true;         
+    status=true;
+    ojectDetector.detect(camera,gotResult);
 }
