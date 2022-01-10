@@ -20,6 +20,5 @@ function gotResult(error,results){
     }
     else{
         console.log(results);
-        objects=results;
-    }
+   }
 }
