@@ -22,6 +22,7 @@ function gotResult(error,results){
         console.log(results);
           if(results[0] != "person"){
                document.getElementById("header").innerHTML="BABY LEFT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+               document.getElementById("title").innerHTML="! BABY gone !"
           }
    }
 }
