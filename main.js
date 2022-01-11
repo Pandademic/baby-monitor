@@ -20,5 +20,8 @@ function gotResult(error,results){
     }
     else{
         console.log(results);
+          if(results[0] != "person"){
+               document.getElementById("header").innerHTML="BABY LEFT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
+          }
    }
 }
