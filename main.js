@@ -23,8 +23,6 @@ function gotResult(error,results){
           if(results[0] != "person"){
                document.getElementById("header").innerHTML="BABY LEFT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
                document.getElementById("title").innerHTML="! BABY gone !"
-               alarm = new Audio('alarm.mp3');
-               alarm.play();
           }
    }
 }
