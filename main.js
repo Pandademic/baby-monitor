@@ -24,5 +24,9 @@ function gotResult(error,results){
                document.getElementById("header").innerHTML="BABY LEFT!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!";
                document.getElementById("title").innerHTML="! BABY gone !"
           }
+          else {
+              document.getElementById("header").innerHTML="Nothing abnormal";
+              document.getElementById("title").innerHTML="Everything's OK"
+          }
    }
 }
