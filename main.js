@@ -2,7 +2,7 @@ camera="";
 function setup(){
       camera=createCapture(VIDEO);
       camera.hide();
-      canvas=createCanvas();
+      canvas=createCanvas(480,430);
       canvas.center();
       objectDetector=ml5.objectDetector('cocossd',modelLoaded);
 }
